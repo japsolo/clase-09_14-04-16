@@ -1,0 +1,26 @@
+// Archivo inicial que importará todos los demás archivos que hagamos con SASS
+// este archivo NO SE NOMBRA con el guión bajo, los demás a ser importados SI 
+// Al importar un archivo basta con solo "llamarlo" sin poner la extensión
+// Si importamos un archivo que no existe, al compilar tendremos error
+// Si importamos un archivo que si existe pero ponemos mal su nombre, al compilar tendremos error
+
+// Para compilar, después de haber instalado la RUBY GEM lo único que tenemos que hacer en la terminal 
+// RUBY PROMPT es ubicarnos en la carpeta que contiene nuestro proyecto y escribir esto:
+// sass --watch sass/styles.css:css/styles.css
+// Y obtendremos un anuncio algo así:
+// >>> Sass is watching for changes. Press Ctrl-C to stop.
+
+// variables
+@import _variables
+
+// mixins
+@import _mixins
+
+// reset
+@import _resets
+
+// texto
+@import _textos
+
+// layout
+@import _layout

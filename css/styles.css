@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0;
+  /* estamos aprendiendo SASS es un embole */ }
+
+.container {
+  width: 800px;
+  border-radius: 20%;
+  border: dotted 2px red;
+  box-shadow: 5px 5px 12px #000000;
+  -webkit-box-shadow: 5px 5px 12px #000000; }
+
+.caja {
+  width: 400px;
+  font-family: sans-serif;
+  background-color: #FF104B;
+  border-radius: 20%;
+  border: dotted 2px red; }
+  .caja p {
+    color: #FF104B;
+    font-size: 14px; }
+    .caja p em {
+      font-style: normal;
+      background-color: yellow; }
+  .caja h2 {
+    font-weight: normal; }
+
+/*# sourceMappingURL=styles.css.map */

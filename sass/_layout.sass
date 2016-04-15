@@ -1,0 +1,29 @@
+// Recordar que aquí no usamos {} ni tampoco ;
+// Las propiedades SI o SI deben ir separadas de los valores por un espacio después de los :
+// ej: width: 800px [está bien]
+// ej: width:800px [está MAL - al compilar tirará error]
+
+.container
+	width: $main-width*1px
+	+redondo
+	+sombra(5px, 5px, 12px, #000000)
+
+.caja
+	width: ($main-width/2)*1px
+	font-family: $main-font
+	background-color: $main-color
+	+redondo
+
+	// doy estilo a p dentro de .caja
+	p
+		color: $main-color
+		font-size: 14px
+
+		// estilo al em dentro de p de caja
+		em
+			font-style: normal
+			background-color: yellow
+
+	// estilo para el h2 dentro de caja
+	h2
+		font-weight: normal
